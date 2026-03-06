@@ -1,0 +1,31 @@
+{
+  "nodes": ["Mumbai", "Ahmedabad", "Delhi", "Bengaluru", "Chennai", "Kolkata", "Hyderabad", "Pune", "Nagpur", "Lucknow", "Indore", "Jaipur"],
+  "edges": [
+    { "from": "Mumbai", "to": "Ahmedabad", "cost": 50, "capacity": 200, "departure": "0800", "arrival": "1030" },
+    { "from": "Mumbai", "to": "Pune", "cost": 20, "capacity": 500, "departure": "0700", "arrival": "0900" },
+    { "from": "Mumbai", "to": "Bengaluru", "cost": 150, "capacity": 100, "departure": "0900", "arrival": "1400" },
+    { "from": "Mumbai", "to": "Nagpur", "cost": 110, "capacity": 150, "departure": "1000", "arrival": "1600" },
+    { "from": "Delhi", "to": "Ahmedabad", "cost": 100, "capacity": 120, "departure": "1100", "arrival": "1500" },
+    { "from": "Delhi", "to": "Lucknow", "cost": 60, "capacity": 300, "departure": "0900", "arrival": "1300" },
+    { "from": "Delhi", "to": "Kolkata", "cost": 200, "capacity": 120, "departure": "1600", "arrival": "2200" },
+    { "from": "Delhi", "to": "Jaipur", "cost": 40, "capacity": 400, "departure": "0800", "arrival": "1000" },
+    { "from": "Delhi", "to": "Nagpur", "cost": 130, "capacity": 100, "departure": "1400", "arrival": "2000" },
+    { "from": "Bengaluru", "to": "Chennai", "cost": 80, "capacity": 250, "departure": "1500", "arrival": "1730" },
+    { "from": "Bengaluru", "to": "Hyderabad", "cost": 60, "capacity": 300, "departure": "0700", "arrival": "0900" },
+    { "from": "Chennai", "to": "Hyderabad", "cost": 70, "capacity": 200, "departure": "1200", "arrival": "1430" },
+    { "from": "Pune", "to": "Hyderabad", "cost": 90, "capacity": 150, "departure": "1300", "arrival": "1800" },
+    { "from": "Nagpur", "to": "Hyderabad", "cost": 80, "capacity": 180, "departure": "0900", "arrival": "1300" },
+    { "from": "Nagpur", "to": "Kolkata", "cost": 140, "capacity": 100, "departure": "1500", "arrival": "2100" },
+    { "from": "Pune", "to": "Bengaluru", "cost": 120, "capacity": 200, "departure": "1000", "arrival": "1600" },
+    { "from": "Lucknow", "to": "Kolkata", "cost": 90, "capacity": 150, "departure": "1700", "arrival": "2300" },
+    { "from": "Indore", "to": "Delhi", "cost": 90, "capacity": 180, "departure": "0600", "arrival": "1100" },
+    { "from": "Indore", "to": "Mumbai", "cost": 80, "capacity": 200, "departure": "0700", "arrival": "1200" },
+    { "from": "Ahmedabad", "to": "Jaipur", "cost": 70, "capacity": 120, "departure": "1200", "arrival": "1600" },
+    { "from": "Jaipur", "to": "Lucknow", "cost": 80, "capacity": 150, "departure": "1300", "arrival": "1800" },
+    { "from": "Hyderabad", "to": "Chennai", "cost": 70, "capacity": 200, "departure": "1500", "arrival": "1730" },
+    { "from": "Chennai", "to": "Kolkata", "cost": 180, "capacity": 50, "departure": "1800", "arrival": "2300" },
+    { "from": "Bengaluru", "to": "Indore", "cost": 160, "capacity": 80, "departure": "0500", "arrival": "1400" },
+    { "from": "Nagpur", "to": "Lucknow", "cost": 110, "capacity": 100, "departure": "0800", "arrival": "1400" },
+    { "from": "Kolkata", "to": "Chennai", "cost": 180, "capacity": 50, "departure": "0900", "arrival": "1400" }
+  ]
+}
