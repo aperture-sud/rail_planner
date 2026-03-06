@@ -27,24 +27,6 @@ This project was built to address technical bottlenecks inherent in logistics so
 * **Data Structures:** Weighted Graph (Adjacency List), Prefix Tree (Trie)
 
 
-## Setup Instructions
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/yourusername/railway-planner-pro.git](https://github.com/yourusername/railway-planner-pro.git)
-   cd railway-planner-pro
-2. **Install dependencies:**
-   ```bash
-  pip install fastapi uvicorn
-3. **Configure the Data:**
-   Ensure your data/network.json file is present in the data/ directory and contains your graph network data in the expected format.
-4. **Run the server:**
-   ```bash
-  python3 main.py
-5. **Access the Dashboard:**
-   Once the server starts, open your browser and navigate to: http://127.0.0.1:8000
-
-
 ## File Structure
 
 ```text
