@@ -7,7 +7,7 @@ This project was built to address technical bottlenecks inherent in logistics so
 
 * **Efficient Search via Trie Data Structure:** To ensure sub-millisecond autocomplete performance, implemented a **Trie (Prefix Tree)**. This allows the system to perform station lookups in $O(L)$ time complexity (where $L$ is the length of the string).
 
-* **Heuristic-Driven A-star Pathfinding:** To avoid the computational expensiveness of algorithms like Dijkstra, I developed a routing engine using the **A* algorithm**. By utilizing time-dependent heuristics, the system effectively prunes sub-optimal search paths, reducing the number of nodes explored while guaranteeing optimal results.
+* **Heuristic-Driven A-star Pathfinding:** To avoid the computational expensiveness of algorithms like Dijkstra, I developed a routing engine using the **A-star algorithm**. By utilizing time-dependent heuristics, the system effectively prunes sub-optimal search paths, reducing the number of nodes explored while guaranteeing optimal results.
 
 * **Robust Temporal Arithmetic:** Architected the backend to handle **24-hour clock rollover** and multi-day itinerary logic. The system treats travel duration as a cumulative timeline, successfully resolvig the "midnight bug" that causes negative-time errors in transit planning.
 
