@@ -45,3 +45,40 @@ rail-planner/
 │   └── routes.py        # API endpoint logic
 └── frontend/
     └── index.html       # Dashboard UI
+
+```
+
+## Setup, Installation & Run
+
+```bash
+# 1. Clone / Download Repository
+git clone https://github.com/aperture-sud/rail_planner.git
+cd rail-planner
+
+# 2. Install Dependencies
+pip install -r requirements.txt
+
+# If requirements.txt is missing:
+# pip install fastapi uvicorn
+
+# 3. Check Project Structure
+ls
+
+# Expected:
+# README.md  requirements.txt  main.py  data/  src/  frontend/
+
+# 4. Check Dataset
+# Make sure the railway network file exists:
+# data/network.json
+
+# 5. Run Server
+python3 main.py
+
+# Alternative:
+# uvicorn main:app --reload --port 8080
+
+# 6. Open Frontend
+# http://127.0.0.1:8080
+
+# 7. Open API Docs
+# http://127.0.0.1:8080/docs
