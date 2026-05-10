@@ -28,7 +28,6 @@ This project was built to address technical bottlenecks inherent in logistics so
 
 
 ## File Structure
-
 ```text
 rail-planner/
 ├── README.md            # Project documentation
@@ -45,7 +44,6 @@ rail-planner/
 │   └── routes.py        # API endpoint logic
 └── frontend/
     └── index.html       # Dashboard UI
-
 ```
 
 ## Setup, Installation & Run
